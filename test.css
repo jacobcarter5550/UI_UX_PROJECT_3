@@ -430,6 +430,14 @@ a{
         visibility: visible;
     }
 
+    .backImg img{
+        visibility: hidden;
+    }
+
+    .backImg2 img{
+        visibility: visible;
+    }
+
     #c1{
         visibility: hidden;
     }
@@ -464,7 +472,85 @@ a{
     }
 
     .girl img{
-        width: 40vw;
+        top: 11vh;
         height: auto;
+        width: 115vw;
+        left: -21vw;    
+        padding-left: 0;
+    }
+
+    .medkit{
+        font-size: 30px;
+    }
+
+    .leftside{
+        position: absolute;
+        transform: translateX(50%);
+        top: 7vh;
+    }
+
+    .rightside{
+        position: absolute;
+    }
+
+    .blog{
+        top: 0;
+    }
+
+    .access1{
+        left: 53vw;
+        top: -.25vh;
+        height: auto;
+    }
+
+    .logo img{
+        width: 14vw;
+    }
+
+    .downloadButton{
+        margin-top: 0;
+        width: 30vw;
+    }
+
+    .arrow{
+        padding-left: 2vw;
+    }
+
+    .arrow img{
+        width: 10vw;
+        padding-bottom: 1vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .safety, .manage, .lItem1, .forming, .founders{
+        font-size: 20px;
+    }
+
+    .medkit2, .info, .keep, .lItem2, .even, .top{
+        font-size: 16px;
+    }
+
+    .internet, .bot{
+        font-size: 12px;
+    }
+
+    .rightside, .access2{
+        font-size: 10px;
     }
 }
