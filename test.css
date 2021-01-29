@@ -48,10 +48,26 @@ a{
     opacity: 40%;
 }
 
+.backImg{
+    visibility: visible;
+}
+
 .backImg img{
     width: 100vw;
     position: absolute;
     left: 0;
+    visibility: visible;
+}
+
+.backImg2{
+    visibility: hidden
+}
+
+.backImg2 img{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
 }
 
 /* .rect{
@@ -402,4 +418,53 @@ a{
 
 .safety, .manage, .healthy, .lItem1, .keep{
     font-size: calc(100vw/36);
+}
+
+@media screen and (max-width: 375px){
+
+    .backImg{
+        visibility: hidden;
+    }
+
+    .backImg2{
+        visibility: visible;
+    }
+
+    #c1{
+        visibility: hidden;
+    }
+    #c2{
+        visibility: hidden;
+    }
+    #c3{
+        visibility: hidden;
+    }
+    #c4{
+        visibility: hidden;
+    }
+
+    .read{
+        visibility: hidden;
+    }
+
+    .mags{
+        visibility: hidden;
+    }
+
+    .more{
+        visibility: hidden;
+    }
+
+    .phone3{
+        visibility: hidden;
+    }
+
+    .access3{
+        visibility: hidden;
+    }
+
+    .girl img{
+        width: 40vw;
+        height: auto;
+    }
 }
