@@ -1,0 +1,384 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0em;
+    text-align: center;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.background{
+    position: absolute;
+    z-index: -1;
+}
+
+.backImg img{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+}
+
+/* .rect{
+    width: 62.5vw;
+    height: 400vh;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+} */
+
+.header{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    top: 1vh;
+    position: relative;
+    z-index: 5;
+}
+
+.leftside{
+    display: flex;
+    padding-left: 2vw;
+    align-items: center;
+}
+
+.logo img{
+    width: 6.4583vw;
+}
+
+.medkit{
+    font-size: calc(100vw/28.81);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: relative;
+    padding-top: .5vh;
+    padding-left: 2vw;
+    color: #094972;
+}
+
+.medkit p{
+    margin: 0;
+}
+
+.rightside{
+    display: flex;
+    font-size: calc(100vw/72.04610);
+    color: #F05F62;
+    position: relative;
+    padding-right: 2vw;
+}
+
+.rightside div{
+    margin: 5vh 2vw;
+    position: relative;
+    top: 2vh;
+}
+
+.access1{
+    border: 1px solid #F05F62;
+    border-radius: .3vw;
+    height: 3.5vh;
+    padding: 0 .2vw;
+}
+
+.access1 a{
+    margin-top: .25vh;
+}
+
+.container{
+    width: 62.5vw;
+    height: 660vh;
+    margin: 0 auto;
+    align-content: center;
+    z-index: 4;
+}
+
+.safety p, .manage p, .healthy p{
+    font-size: calc(100vw/36);
+}
+
+.lander{
+    height: 121vh;
+    color: #FAF3DE;
+}
+
+.girl img{
+    height: 110.73170731707317vh;
+    position: relative;
+    top: -20vh;
+    padding-left: calc(38.39517361111111vw/9.9);
+}
+
+.text{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    top: -75vh;
+}
+
+.medkit2{
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.downloadButton{
+    display: flex;
+    border: 1px solid #FAF3DE;
+    border-radius: .3vw;
+    width: 22.5694vw;
+    align-items: center;
+    color: #FAF3DE;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+
+.access2{
+    padding: .5vw;
+}
+
+.arrow{
+    padding-left: 7vw;
+}
+
+.read{
+    margin-top: 20vh;
+}
+
+.access2 p{
+    margin: 0em;
+}
+
+.mags{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 7vh;
+}
+
+#EF{
+    padding-top: 1vh;
+}
+
+.infoHub{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    color: #FAF3DE;
+    margin-bottom: 15vh;
+}
+
+.hearing{
+    height: 7vh;
+}
+
+.blogPlug{
+    text-align: left;
+    display: flex;
+}
+
+.blogImg img{
+    width: 31.94vw;
+}
+
+.blogText div{
+    margin-bottom: 17vh;
+    margin-left: 3.125vw;
+}
+
+.blogText p{
+    margin: 0%;
+}
+
+.keep{
+    font-size: calc(100vw/32);
+}
+
+.healthSpot{
+    height: 240vh;
+}
+
+.keep{
+    position: relative;
+    top: -1vh;
+}
+
+.pres{
+    display: flex;
+    position: relative;
+    left: -6vw;
+    text-align: left;
+    height: 195vh;
+}
+.phones div{
+    position: relative;
+}
+
+.phones :nth-child(2){
+    top: -50vh;
+    left: 15vw;
+}
+
+.phones :last-child{
+    top: -88vh;
+    left: 5vw;
+}
+
+.phones img{
+    width: 18.75vw;
+}
+
+.presList{
+    position: relative;
+    top: -3vh;
+    padding-left: 17vw;
+}
+
+.lItem1{
+    font-size: calc(100vw/36);
+    margin-bottom: 3.9vh;
+}
+
+.lItem2{
+    font-size: calc(100vw/45);
+    width: 29vw;
+}
+
+.ul1{
+    display: flex;
+}
+
+.ul1:nth-child(n+2){
+    margin-top: 4.5vh;
+}
+
+.ul1 img{
+    width: 4.0972vw;
+    height: 7.19512vh;
+    padding-right: 3vw;
+}
+
+.listText1 :first-child{
+    margin-top: 1vh;
+}
+
+.access3{
+    position: relative;
+    top: -15vh;
+    
+}
+
+.access3 p{
+    color: #FAF3DE;
+    background-color: #094972;
+    width: 17vw;
+    border-radius: 3px;
+    padding: .6vh;
+}
+
+.glass1{
+    position: relative;
+    z-index: -1;
+    left: -10vw;
+    top: -210vh;
+    width: 95vw;
+    height: 203vh;
+    background: white;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.12) 100%);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+}
+
+.border{
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.12) 100%);
+    border-radius: 30px;
+}
+
+.community{
+    color: #FAF3DE;
+}
+
+.mask{
+    width: 83.6527vw;
+    height: 32.29268vh;
+    overflow: hidden;
+}
+
+.content img{
+    position: relative;
+    width: 27.6527vw;
+    left: -1vw;
+    top: -1vh;
+}
+
+.ul2{
+    display: flex;
+}
+
+.listText2{
+    text-align: left;
+    margin-left: 3vw;
+}
+
+.listText3{
+    text-align: left;
+}
+
+.fix{
+    width: 30vw;
+    margin-right: 2vw;
+}
+
+.founders{
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.founderImgs{
+    justify-content: space-between;
+    display: flex;
+}
+
+.founder img{
+    width: 14.58vw;
+}
+/* text adjustments */
+
+.forming, .meet{
+    font-size: calc(100vw/28.801);
+}
+
+.medkit2, .access2, .info, .internet{
+    font-size: calc(100vw/72.04610);
+}
+
+.hearing, .access3{
+    font-size: calc(100vw/51.440329218107);
+}
+
+.even, .top{
+    font-size: calc(100vw/45);
+}
+
+.more{
+    font-size: calc(100vw/120.00048000192);
+}
+
+.read{
+    font-size: calc(100vw/80);
+}
+
+.bot{
+    font-size: calc(100vw/57.60036864235931);
+}
+

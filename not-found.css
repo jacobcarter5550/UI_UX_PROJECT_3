@@ -1,0 +1,24 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.background img{
+    width: 100vw;
+}
+
+.message{ position: relative;
+    text-align: center;
+    color: #F05F62;
+    margin-left: auto;
+    margin-right: auto;
+    top: 15vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: calc(100vw/18);
+}
