@@ -2,6 +2,14 @@ body{
     font-family: 'Raleway', sans-serif;
     margin: 0em;
     text-align: center;
+    border: 1px solid transparent;
+}
+
+html { height: 100% } 
+body { min-height: 100% }
+
+body {
+    padding-bottom: 20px;
 }
 
 li{
@@ -145,6 +153,7 @@ a{
     margin: 0 auto;
     align-content: center;
     z-index: 4;
+    overflow: hidden;
 }
 
 
@@ -381,14 +390,38 @@ a{
     width: 70vw;
     position: relative;
     right: 5vw;
+    justify-content: space-evenly;
 }
 
 .founderImgs{
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
 }
 
 .founder img{
+    width: 12.58vw;
+}
+
+.title, .descrip{
+    text-align: left;
+}
+
+/* .vic img{
+    position: relative;
+    left: -.3vw;
+}
+
+.jacob img{
+    position: relative;
+    left: -2vw;
+}
+
+.sara img{
+    position: relative;
+    left: -1.2vw;
+} */
+
+.descrip{
     width: 12.58vw;
 }
 /* text adjustments */
@@ -397,7 +430,7 @@ a{
     font-size: calc(100vw/28.801);
 }
 
-.medkit2, .access2, .info, .internet, .rightside{
+.title, .medkit2, .access2, .info, .internet, .rightside{
     font-size: calc(100vw/72.04610);
 }
 
@@ -405,7 +438,7 @@ a{
     font-size: calc(100vw/45);
 }
 
-.more{
+.descrip, .more{
     font-size: calc(100vw/120.00048000192);
 }
 
@@ -581,6 +614,10 @@ a{
 
     html{
         height: 846.4219vh;
+    }
+
+    body {
+        border: 1px solid transparent;
     }
 
 }
