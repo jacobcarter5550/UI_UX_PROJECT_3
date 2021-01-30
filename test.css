@@ -554,3 +554,24 @@ a{
         font-size: 10px;
     }
 }
+
+@media screen and (min-width: 1440px){
+
+    .infoHub{
+        margin-bottom: 45vh;
+    }
+
+    .healthSpot{
+        margin-bottom: 20vh;
+    }
+
+    .access3{
+        top: 7vh;
+    }
+
+    .glass1{
+        height: 215vh;
+    }
+
+
+}
