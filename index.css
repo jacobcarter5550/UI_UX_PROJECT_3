@@ -403,3 +403,33 @@ a{
 .safety, .manage, .healthy, .lItem1, .keep{
     font-size: calc(100vw/36);
 }
+
+
+@media screen and (min-width: 1440px){
+
+    .infoHub{
+        margin-bottom: 45vh;
+    }
+
+    .healthSpot{
+        margin-bottom: 20vh;
+    }
+
+    .access3{
+        top: 7vh;
+    }
+
+    .glass1{
+        height: 215vh;
+    }
+
+
+    .community{
+        margin-bottom: 35vh;
+    }
+
+    html{
+        height: 846.4219vh;
+    }
+
+}
