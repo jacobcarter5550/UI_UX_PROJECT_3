@@ -147,6 +147,7 @@ a{
     z-index: 4;
 }
 
+
 .lander{
     height: 121vh;
     color: #FAF3DE;
@@ -377,9 +378,9 @@ a{
 }
 
 .founders{
-    width: 90vw;
-    margin-right: auto;
-    margin-left: auto;
+    width: 70vw;
+    position: relative;
+    right: 5vw;
 }
 
 .founderImgs{
@@ -388,7 +389,7 @@ a{
 }
 
 .founder img{
-    width: 14.58vw;
+    width: 12.58vw;
 }
 /* text adjustments */
 
@@ -573,5 +574,13 @@ a{
         height: 215vh;
     }
 
+
+    .community{
+        margin-bottom: 35vh;
+    }
+
+    html{
+        height: 846.4219vh;
+    }
 
 }
